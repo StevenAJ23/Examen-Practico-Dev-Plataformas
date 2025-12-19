@@ -3,9 +3,12 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Trabajo extends Model
 {
+    use SoftDeletes;
+
     protected $table = 'trabajos';
 
     protected $fillable = [
@@ -16,7 +19,7 @@ class Trabajo extends Model
         'estado'
     ];
 
-    // Obtener todos los trabajos
+    // Obtener todos los trabajos (solo activos)
     public static function getTrabajos()
     {
         return self::all();
@@ -40,7 +43,7 @@ class Trabajo extends Model
         return self::where('id', $id)->update($data);
     }
 
-    // Eliminar un trabajo
+    // Eliminar un trabajo (SOFT DELETE)
     public static function deleteTrabajo(Trabajo $trabajo)
     {
         $trabajo->delete();
