@@ -31,9 +31,9 @@
                 <td>{{ $trabajo->nombre_cliente }}</td>
                 <td>{{ $trabajo->telefono }}</td>
                 <td>
-                    <span class="badge 
-                        {{ in_array($trabajo->estado, ['completado', 'cobrado']) 
-                            ? 'bg-success' 
+                    <span class="badge
+                        {{ in_array($trabajo->estado, ['completado', 'cobrado'])
+                            ? 'bg-success'
                             : 'bg-warning text-dark' }}">
                         {{ ucfirst(str_replace('_', ' ', $trabajo->estado)) }}
                     </span>
