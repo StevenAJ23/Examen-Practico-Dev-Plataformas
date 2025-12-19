@@ -72,23 +72,32 @@ El sistema permite:
 
 ## 📸 Capturas de Pantalla
 
-El proyecto incluye las siguientes capturas:
+El proyecto incluye las siguientes vistas principales del sistema:
 
-1. Vista de listado de trabajos
-   
-3. Formulario de creación de un trabajo  
-4. Vista en modo móvil (responsive)
+### 1. Vista de listado de trabajos
+Muestra todos los trabajos registrados con su información básica (cliente, servicio, estado y fecha), permitiendo una gestión rápida desde el celular o escritorio.
+
+![Listado de trabajos](capturas/lista.png)
+
+### 2. Formulario de creación de un trabajo
+Formulario para registrar un nuevo trabajo de cerrajería, ingresando datos como tipo de servicio, dirección, nombre del cliente y teléfono. La fecha se genera automáticamente.
+
+![Formulario de creación](capturas/creacion.png)
+
+### 3. Vista en modo móvil (responsive)
+Interfaz adaptada para dispositivos móviles, pensada para que el cerrajero pueda usar el sistema cómodamente desde la calle.
+
+![Vista móvil](capturas/vistamovil.png)
 
 ---
 
-## ✅ Estado del Proyecto
+## 🔗 Repositorio del Proyecto
 
-✔ Proyecto funcional  
-✔ CRUD completo  
-✔ Cumple con los requisitos de la rúbrica  
-✔ Adaptado al caso asignado  
+El código fuente del proyecto se encuentra disponible en GitHub en el siguiente enlace:
 
----
+👉 [https://github.com/](https://github.com/StevenAJ23/Examen-Practico-Dev-Plataformas)
+--
+
 ## 👨‍💻 Autor
 
 <p align="center">
