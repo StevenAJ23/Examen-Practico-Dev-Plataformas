@@ -5,7 +5,7 @@
 @section('contenido')
 <h1>Registrar Trabajo de Cerrajería</h1>
 
-{{-- MOSTRAR ERRORES DE VALIDACIÓN --}}
+
 @if ($errors->any())
     <div class="alert alert-danger">
         <ul class="mb-0">
