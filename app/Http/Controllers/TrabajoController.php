@@ -44,7 +44,7 @@ class TrabajoController extends Controller
             'telefono.digits_between' => 'El teléfono debe tener entre 7 y 10 dígitos.'
         ]);
 
-        // ✅ GUARDADO CORRECTO
+        
         Trabajo::create([
             'tipo_servicio'  => $request->tipo_servicio,
             'direccion'      => $request->direccion,
@@ -93,7 +93,7 @@ class TrabajoController extends Controller
             'telefono.digits_between' => 'El teléfono debe tener entre 7 y 10 dígitos.'
         ]);
 
-        // ✅ ACTUALIZACIÓN CORRECTA
+        
         $trabajo->update([
             'tipo_servicio'  => $request->tipo_servicio,
             'direccion'      => $request->direccion,
